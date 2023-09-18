@@ -38,7 +38,8 @@ public class ProjetosApplication implements CommandLineRunner {
         Pessoa p13 = new Pessoa(null, "Daniela Pivato", "Pago");
         Pessoa p14 = new Pessoa(null, "Marcos Pivato", "Pago");
         Pessoa p15 = new Pessoa(null, "Quiteria Pereira", "Pago");
-        pessoaRepository.saveAll(Arrays.asList(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15));
+        Pessoa p16 = new Pessoa(null, "Macario Dias", "Pago");
+        pessoaRepository.saveAll(Arrays.asList(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16));
 
         Comida c1 = new Comida(null, "Salgados + Mini churros");
         Comida c2 = new Comida(null, "Paçoca");
