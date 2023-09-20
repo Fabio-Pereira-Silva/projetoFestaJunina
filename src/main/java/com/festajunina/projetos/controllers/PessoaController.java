@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/pessoa")
-
 public class PessoaController {
     @Autowired
     private PessoaService pessoaService;

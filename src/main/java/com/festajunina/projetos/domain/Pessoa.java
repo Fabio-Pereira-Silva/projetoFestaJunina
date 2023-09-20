@@ -6,7 +6,6 @@ import java.util.List;
 @Entity
 @Table (name = "tb_pessoa")
 @Data
-
 public class Pessoa {
 
     @Id
