@@ -57,7 +57,8 @@ public class ProjetosApplication implements CommandLineRunner {
         Comida c14 = new Comida(null, "Vinho Quente");
         Comida c15 = new Comida(null, "Caipirinha");
         Comida c16 = new Comida(null, "Barriu de Chop");
-        comidaRepository.saveAll(Arrays.asList(c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16));
+        Comida c17 = new Comida(null, "Pipoca Salgada");
+        comidaRepository.saveAll(Arrays.asList(c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17));
     }
 
     }
